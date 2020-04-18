@@ -10,7 +10,7 @@ public class Main {
 	@SuppressWarnings({"rawtypes", "unchecked"})
 	public static void main(String[] args) {
 		//archivo del diccionario
-		File dictionaryFile = new File(System.getProperty("user.dir") + "\\src\\diccionario.txt");
+		File dictionaryFile = new File(System.getProperty("user.dir") + "\\diccionario.txt");
 		//arbol binario
 		BinaryTree bt = new BinaryTree();
 		
@@ -44,7 +44,7 @@ public class Main {
 				fr.close();
 				
 				//archivo con el texto a traducir
-				File textFile = new File(System.getProperty("user.dir") + "\\src\\texto.txt");
+				File textFile = new File(System.getProperty("user.dir") + "\\texto.txt");
 				
 				//existe el archivo para traducir?
 				if (textFile.exists()) {
